@@ -12,3 +12,15 @@ body {
     border-radius: 1rem;
     border-color: red;
 }
+#profilePhoto {
+    width: 300px;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1rem;
+    border-color: red;
+}
+
+audio {
+    margin-bottom: 20px;
+}
