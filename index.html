@@ -6,15 +6,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>ProminOG</title>
 
+        <!-- CSS Stylesheet -->
+        <link href="/CSS/normalize.css" rel="stylesheet" />
+        <link href="/CSS/stylesheet.css" rel="stylesheet" />
+
+        <!-- tailwindcss Stylesheet-->
         <link href="/dist/output.css" rel="stylesheet" />
     </head>
-    <body class="bg-gray-800">
-        <div>
-            <header>
-                <h1></h1>
-            </header>
-            <main>
-                <h1></h1>
+    <body class="">
+        <div class="m-5 max-w-xl mx-auto">
+            <main class="ml-4 mr-4">
+                <section
+                    class="max-w-2xl mx-auto rounded-xl bg-orange-800/60 motion-safe:animate-bounce"
+                >
+                    <div class="mt-20 p-10 md:grid place-content-center">
+                        <img
+                            src="/images/IMG_3560.JPG"
+                            class="sm:objectfit-contain"
+                            id="homePhoto"
+                        />
+                    </div>
+                </section>
+                <section class="mt-5 animate-pulse text-center">
+                    <a class="text-2xl md:text-4xl font-serif text-orange-500">
+                        Promise Over Defeat
+                    </a>
+                </section>
             </main>
         </div>
     </body>

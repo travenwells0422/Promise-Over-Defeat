@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(31 41 55);
+}
+
+#homePhoto {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1rem;
+    border-color: red;
+}
